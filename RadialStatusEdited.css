@@ -1,7 +1,3 @@
-:root {
-  --rs-version: "2.0.9";
-}
-
 #app-mount .wrapper-3Un6-K {
   border-radius: var(--rs-avatar-shape);
 }
