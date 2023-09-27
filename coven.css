@@ -300,7 +300,7 @@
 	display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-	content: var(--window-name);
+	content: var(--window-name)!important;
 	display: block;
 	position: relative;
 	width: 200px;
