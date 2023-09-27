@@ -3,6 +3,7 @@
 	--spacing: 12px;
 	/* radius of round corners */
 	--roundness: 16px;
+	--window-name: 'THE COVEN'; /* text in the upper left side of the discord app */
 
 	/* color of links */
 	--accent-1: hsl(190, 70%, 60%);
@@ -299,7 +300,7 @@
 	display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-	content: 'Midnight';
+	content: var(--window-name);
 	display: block;
 	position: relative;
 	width: 200px;
